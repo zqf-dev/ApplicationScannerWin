@@ -1,28 +1,16 @@
 # ApplicationScannerWin
 
 ## 介绍
-ApplicationScannerWin为Windows平台版本的App代码扫描工具，原框架只能支持Mac / Linux环境。本框架仅仅为学习记录，思路来源于查看源码后，python部分的跨平台和将检测部分改为用win doc命令，在此声明不用做任何的推广滥用。有任何疑问欢迎留言。
+​		ApplicationScannerWin为Windows平台版本的apk、ipa、so、aar、jar等库代码扫描工具，本框架仅仅为学习记录，思路来源于查看原框架**ApplicationScanner**源码后，python部分具跨平台特性和尝试把检测部分改为用win doc查询命令。使用检测命令和原框架保持一致，达到完美兼容。
 
-再次感谢原作者，奉上链接：
+**在此声明不用做任何的推广滥用。有任何疑问欢迎留言。**
 
-原作者框架github：https://github.com/paradiseduo/ApplicationScanner
+**感谢原作者，奉上github链接：https://github.com/paradiseduo/ApplicationScanner**
 
 ```bash
-
-                      _____
-    /\               / ____|
-   /  \   _ __  _ __| (___   ___ __ _ _ __  _ __   ___ _ __
-  / /\ \ | '_ \| '_ \___ \ / __/ _` | '_ \| '_ \ / _ \ '__|
- / ____ \| |_) | |_) |___) | (_| (_| | | | | | | |  __/ |
-/_/    \_\ .__/| .__/_____/ \___\__,_|_| |_|_| |_|\___|_|
-         | |   | |
-         |_|   |_|
-
-                             ParadiseDuo  [2.4]
-
+	ParadiseDuo  [2.4]
     Usage:
         python3 AppScanner.py -i *.apk/*.ipa/*.aab
-
         -h help
         -i <inputPath>
         -s save cache (Default clear cache)
@@ -30,15 +18,15 @@ ApplicationScannerWin为Windows平台版本的App代码扫描工具，原框架�
         -f <CheckList Path>
 ```
 ## 要求
-* 仅支持 Windows 版本.
+* 支持 Mac、Linux、Windows 版本.
 
 * 确保在电脑上已经安装了 python3.x 和 Java 11.
 
 * 安装打印美化 js-beautify
 
-	```bash
-	npm -g install js-beautify
-	```
+```bash
+npm -g install js-beautify
+```
 
 ## 使用
 ```bash
