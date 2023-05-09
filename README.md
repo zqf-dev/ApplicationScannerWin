@@ -1,0 +1,2 @@
+# ApplicationScannerWin
+ApplicationScannerWin为Windows平台版本的App代码扫描工具
