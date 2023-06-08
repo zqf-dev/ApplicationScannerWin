@@ -22,7 +22,7 @@
 
 * 确保在电脑上已经安装了 python3.x 和 Java 11.
 
-* 安装打印美化 js-beautify
+* 安装打印美化 js-beautify（可选）
 
 ```bash
 npm -g install js-beautify
@@ -30,12 +30,19 @@ npm -g install js-beautify
 
 ## 使用
 ```bash
-> git clone https://github.com/paradiseduo/ApplicationScanner.git
+> git clone https://github.com/zqf-dev/ApplicationScannerWin.git
 > cd ApplicationScanner
 > pip install -r requirements.txt
-> python3 AppScanner.py -i xxx.apk
+> python AppScanner.py -i xxx.apk
 ```
+### 扫描结果保存
+
+```bash
+python AppScanner.py -i xxx.apk > result.txt
+```
+
 ### 扫描SDK
+
 支持扫描.framework/.a/.so/.aar/.jar file
 ```bash
 > python3 AppScanner.py -i test.framework -f checklist
