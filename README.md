@@ -3,7 +3,7 @@
 ## 介绍
 ​		ApplicationScannerWin为Windows平台版本的apk、ipa、so、aar、jar等库代码扫描工具，本框架仅仅为学习记录，思路来源于查看原框架**ApplicationScanner**源码后，python部分具跨平台特性和尝试把检测部分改为用win doc查询命令。使用检测命令原理和原框架基本保持一致，达到完美兼容。
 
-**在此声明不用做任何的推广滥用。有任何疑问欢迎留言。**
+**在此声明不用做任何的推广滥用。欢迎各位大佬们留言issues**
 
 **感谢原作者，奉上github链接：https://github.com/paradiseduo/ApplicationScanner**
 
@@ -58,6 +58,30 @@ method_exchangeImplementations
 支付宝
 微信
 ```
+
+## 案例
+
+- **部分截图如下**
+
+![](./images/1.jpg)
+
+![](./images/2.jpg)
+
+![](./images/3.jpg)
+
+![](./images/4.jpg)
+
+![](./images/6.jpg)
+
+![](./images/2.jpg)
+
+## 计划
+
+进一步完善在一些复杂app上出现的问题如：
+
+- FINDSTR: 搜索字符串太长、找不到文件 - '*.js'等情况
+- ...
+- ...
 
 ## License
 
